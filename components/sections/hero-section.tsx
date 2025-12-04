@@ -19,12 +19,6 @@ export function HeroSection({ scrollToSection }: HeroSectionProps) {
       </div>
 
       <div className="max-w-4xl mx-auto text-center space-y-8 relative z-10 animate-fade-in">
-        <div className="inline-block">
-          <div className="p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-2xl mb-6 animate-float">
-            <Building2 className="w-16 h-16 text-slate-900 dark:text-white" />
-          </div>
-        </div>
-
         <h1 className="text-6xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-blue-700 dark:from-blue-300 dark:to-amber-400 leading-tight">
           Randolph Enterprises
         </h1>

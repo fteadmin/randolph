@@ -17,10 +17,6 @@ export function ContactSection() {
 
         <Card className="overflow-hidden hover:shadow-2xl transition-all duration-300">
           <CardContent className="p-10 text-center space-y-6">
-            <div className="inline-block p-4 bg-slate-900 dark:bg-slate-100 rounded-2xl mb-4">
-              <Building2 className="w-12 h-12 text-white dark:text-slate-900" />
-            </div>
-
             <h3 className="text-3xl font-bold text-slate-900 dark:text-white">
               Let's Work Together
             </h3>

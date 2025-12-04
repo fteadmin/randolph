@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 
 export function BoardSection() {
@@ -15,10 +16,16 @@ export function BoardSection() {
 
         <Card className="overflow-hidden hover:shadow-2xl transition-all duration-300">
           <CardContent className="p-10">
-            <div className="flex flex-col md:flex-row gap-8">
+            <div className="flex-col md:flex-row gap-8">
               <div className="flex-shrink-0">
-                <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-blue-900 to-blue-700 dark:from-blue-600 dark:to-amber-500 flex items-center justify-center shadow-xl">
-                  <span className="text-5xl font-bold text-white">CR</span>
+                <div className="w-32 h-32 rounded-2xl overflow-hidden shadow-xl">
+                  <Image 
+                    src="/assets/curtis.webp" 
+                    alt="Curtis Randolph" 
+                    width={128} 
+                    height={128}
+                    className="object-cover w-full h-full"
+                  />
                 </div>
               </div>
 
